@@ -1,0 +1,94 @@
+.techskill{
+  width: 100%;
+  height: 100vh;
+}
+.techskill-container{
+  width: 80%;
+  margin: auto;
+}
+.techcont-center{
+  width: 100%;
+  /* background-color: antiquewhite; */
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  row-gap: 20px;
+}
+.contentvisible{
+  opacity: 0;
+  transform: translateX(-30);
+  transition: opacity 1s ease, transform 1s ease;
+}
+.show{
+  opacity: 1;
+  transform: translateX(0);
+}
+
+
+
+/* Webkit browsers (Chrome, Safari) */
+input[type="range"] {
+  background-color: transparent; 
+  width: 450px;
+  height: 10px;
+  padding-top: 8px;
+  margin-left: 20px;
+ 
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  background-color: var(--primary-text); 
+  border: none;
+  width: 16px; 
+  height: 16px; 
+  cursor: pointer;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+  background-color: #ffa600; 
+  height: 8px; 
+  border-radius: 5px;
+
+}
+
+/* Firefox */
+input[type="range"]::-moz-range-thumb {
+  background-color: var(--primary-text); 
+  border: none;
+  width: 16px; 
+  height: 16px; 
+  cursor: pointer;
+  box-shadow: 2px 2px 10px #ffa600;
+}
+
+input[type="range"]::-moz-range-track {
+  background-color: #ffa600; 
+  height: 8px; 
+  border-radius: 5px;
+  /* box-shadow: 2px 0 4px #ffa600; */
+}
+
+/* Edge */
+input[type="range"]::-ms-thumb {
+  background-color: var(--primary-text); 
+  border: none;
+  width: 16px; 
+  height: 16px; 
+  cursor: pointer;
+
+}
+
+input[type="range"]::-ms-fill-lower,
+input[type="range"]::-ms-fill-upper {
+  background-color: #ffa600; 
+}
+
+input[type="range"]::-ms-track {
+  background-color: #ffa600; 
+  height: 8px; 
+  border-radius: 5px;
+
+}
+.skill-icon{
+  font-size: 30px;
+}

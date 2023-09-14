@@ -1,0 +1,14 @@
+:root {
+  --primary-background: #161616; /* Jet Black */
+  --primary-text: #ffffff; /* White */
+  --accent-color: #ffa600; /* Sunshine Yellow */
+  /* --accent-color: #ff6600; Sunshine Yellow */
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: var(--primary-background);
+}
