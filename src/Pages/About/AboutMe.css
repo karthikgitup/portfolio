@@ -4,39 +4,47 @@
 .aboutme{
     width: 100%;
     height: 100vh;
+  
 }
 .aboutme-container{
     width: 90%;
+    height: 100%;
     margin: auto;
     display: flex;
     flex-direction: row;
+    justify-content: baseline;
+    /* background-color: aquamarine; */
 }
 .aboutme-left{
     width: 50%;
-    /* background-color: antiquewhite; */
+  /* background-color: bisque; */
+
+  
+   
 
 }
 .aboutme-left div{
-    width: 80%;
-    background-color:var(--primary-background);
+    width: 70%;
+   
+   
+  
+    
 }
 .aboutme-left div img{
     width: 100%;
-    background-color:var(--primary-background);
-    z-index: -3;
-    
+ 
+  
 }
 .aboutme-right{
 width: 50%;
-padding-top: 120px;
+/* background-color: rgba(250, 235, 215, 0.904); */
+margin-top: 100px;
+
+/* background-color: blanchedalmond; */
+
 
 }
-/* .aboutme-right h2{
-    padding: 10px;
-}
-.aboutme-right h4{
-    padding: 10px;
-} */
+
 .aboutme-right p{
     padding: 10px;
     padding-left: 0;
@@ -49,4 +57,54 @@ padding-top: 120px;
     font-weight: 600;
     box-shadow: 2px 2px 20px var(--accent-color);
     border-radius: 8px;
+}
+@media (max-width:1100px){
+    .aboutme-left{
+        width: 60%;
+
+    }
+    .aboutme-right{
+        width: 40%;
+        margin-top: 40px;
+
+    }
+   
+
+}
+@media (max-width:900px){
+    .aboutme-left{
+        width: 65%;
+       
+
+    }
+    .aboutme-right{
+        width: 35%;
+        margin-top: -20px;
+
+    }
+
+}
+@media (max-width:800px){
+    .aboutme{
+        
+    }
+  .aboutme-container{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+  
+  }
+  .aboutme-left{
+    margin-bottom: 30px;
+  width: 300px;
+  margin-left: 70px;
+
+  }
+  .aboutme-right{
+    width: 100%;
+    text-align: center;
+    
+  }
+
 }

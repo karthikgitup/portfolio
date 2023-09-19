@@ -23,7 +23,7 @@ useEffect(()=>{
         </div>
         <div className='about-right'>
          
-       <img className={`imgcontent ${contentvisible ? 'show':""}`} src="https://static-00.iconduck.com/assets.00/web-developer-illustration-503x512-mega3xxj.png" />
+       <img className={`imgcontent ${contentvisible ? 'show':""}`} src="https://static-00.iconduck.com/assets.00/web-developer-illustration-503x512-mega3xxj.png" alt="..."/>
           
 
         </div>

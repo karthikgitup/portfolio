@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './AboutMe.css';
-import self  from '../../photos/self.png';
+import self  from '../../photos/[removal.ai]_ece531c8-2d84-43db-a6db-7eb450f8b4ee-self.png';
 import { Link } from 'react-router-dom';
 const AboutMe = () => {
     const [text,setText]=useState('');
@@ -28,7 +28,7 @@ const AboutMe = () => {
     
     return (
     <div>
-           <div className='aboutme'>
+           <div className='aboutme' id="about">
       <div className='aboutme-container'>
         <div className='aboutme-left'>
             <div className='image-container'>
