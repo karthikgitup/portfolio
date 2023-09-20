@@ -1,6 +1,8 @@
 .techskill{
   width: 100%;
   height: 100vh;
+  padding-top: 50px;
+
 }
 .techskill-container{
   width: 80%;
@@ -8,6 +10,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+ 
   
 
 }
@@ -24,7 +27,7 @@
   padding: 12px;
 }
 .techcont-center{
-  width: 70%;
+  width: 60%;
   padding-top: 40px;
   display: flex;
   flex-direction: column;
@@ -127,4 +130,19 @@ input[type="range"]::-ms-track {
 .skill-icon{
   font-size: 30px;
   box-shadow: 2px 2px 10px #ffa600;
+}
+@media (max-width:800px){
+  .techskill-container{
+    /* background-color: aqua; */
+   
+  }
+  .techcont-left{
+    display: none;
+  }
+  .techcont-center{
+    width: 100%;
+    /* margin: auto; */
+    align-items: center;
+ 
+  }
 }

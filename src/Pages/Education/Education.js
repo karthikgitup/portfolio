@@ -3,6 +3,7 @@ import './Education.css';
 const Education=()=>{
     return (
         <div className="education">
+          <h2>Education</h2>
             <div className="education-container">
                 {/* <div className="topanim"></div>
                 <div className="leftanim"></div>

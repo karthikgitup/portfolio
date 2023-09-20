@@ -19,7 +19,7 @@ const ContactPage = () => {
       <div className="contact-form">
         <h3>Send me a message</h3>
         <form>
-          <div className="form-group">
+          {/* <div className="form-group">
             <label htmlFor="name" className='pe-2'>Name</label>
             <input type="text" id="name" name="name" placeholder="Your Name" required />
           </div>
@@ -29,12 +29,28 @@ const ContactPage = () => {
             <input type="email" id="email" name="email" placeholder="Your Email" required />
           </div>
 <br/>
-          <div className="form-group bg-dark p">
-            <label htmlFor="message" className='bg-light'>Message</label>
+          <div className="form-group ">
+            <label htmlFor="message" className=''>Message</label>
             <textarea id="message" name="message" placeholder="Your Message" required></textarea>
           </div>
 <br/>
-          <button type="submit">Send Message</button>
+          <button type="submit">Send Message</button> */}
+          <div>
+            <label style={{width:"100px"}}>Name</label>
+            <input type='text' placeholder='Your Name'/>
+          </div>
+          <br/>
+          <div>
+            <label style={{width:"100px"}}>Email</label>
+            <input type='email' placeholder='Your mail id' required/>
+          </div>
+          <br/>
+          <div>
+            <label style={{width:"100px"}}>Message</label>
+          
+            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+          </div>
+          <br/>
         </form>
       </div>
       </div>
