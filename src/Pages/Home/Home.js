@@ -8,7 +8,7 @@ import ContactPage from '../Contact/ContactPage'
 
 const Home = () => {
   return (
-    <div >
+    <div className='home' >
         <About/>
         <Skill />
         <ProjectPage />
