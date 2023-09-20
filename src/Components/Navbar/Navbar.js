@@ -14,7 +14,7 @@ const Navbar = () => {
     <div className="collapse navbar-collapse w-100" id="navbarSupportedContent">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-evenly w-100">
         <li className="nav-item">
-          <Link className="nav-Link "  to="/">Home</Link>
+          <Link className="nav-Link "  to="home">Home</Link>
         </li>
         <li className="nav-item">
           <Link className="nav-Link" to="about" smooth={true} duration={500}>AboutMe</Link>

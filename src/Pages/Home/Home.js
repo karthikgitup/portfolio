@@ -4,11 +4,11 @@ import Skill from '../Skill/Skill'
 import ProjectPage from '../ProjectPage/ProjectPage'
 import Education from '../Education/Education'
 import ContactPage from '../Contact/ContactPage'
-import Resume from '../../Components/Resume'
+
 
 const Home = () => {
   return (
-    <div>
+    <div >
         <About/>
         <Skill />
         <ProjectPage />
